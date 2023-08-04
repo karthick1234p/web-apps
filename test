@@ -1,0 +1,7 @@
+node
+{
+   def buildNumber = BUILD_NUMBER
+   stage("Git CheckOut"){
+        git url: 'https://github.com/karthick1234p/java-web-app-docker.git',branch: 'master'
+    }
+
